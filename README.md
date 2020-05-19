@@ -1,1 +1,1 @@
-# Delete-a-single-paramter-from-url
+# Delete-a-single-parameter-from-url
