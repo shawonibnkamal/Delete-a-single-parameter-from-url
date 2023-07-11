@@ -7,9 +7,6 @@ function deleteParam(key, value) {
     return;
   }
 
-  //gets the parameters from url and puts it in the list
-  //newParamList except the parameter that is passed in to
-  //be deleted
   var url = new URL(window.location.href);
   var paramList = window.location.search.substr(1).split("&");
   let newParamList = [];
