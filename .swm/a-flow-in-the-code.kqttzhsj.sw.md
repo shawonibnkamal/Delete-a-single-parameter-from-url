@@ -1,8 +1,8 @@
 ---
 id: kqttzhsj
 title: A flow in the code
-file_version: 1.1.2
-app_version: 1.11.8
+file_version: 1.1.3
+app_version: 1.13.0
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ This doc describes the {{SUBJECT}} flow in our system. We will follow its implem
 
 <br/>
 
-/
+this is main.js code snippet
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 main.js
 ```javascript
@@ -33,6 +33,15 @@ This doc describes the {{SUBJECT}} flow in our system. We will follow its implem
 ## Things to note
 
 {{Who uses this flow and when?}}
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 main.js
+```javascript
+14       var paramList = window.location.search.substr(1).split("&");
+```
 
 <br/>
 
